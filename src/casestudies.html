@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Webpixels">
+    <title>Case Studies - Learning Nodes</title>
+    <!-- Preloader -->
+    <style>
+        @keyframes hidePreloader {
+            0% {
+                width: 100%;
+                height: 100%;
+            }
+
+            100% {
+                width: 0;
+                height: 0;
+            }
+        }
+
+        body>div.preloader {
+            position: fixed;
+            background: white;
+            width: 100%;
+            height: 100%;
+            z-index: 1071;
+            opacity: 0;
+            transition: opacity .5s ease;
+            overflow: hidden;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body:not(.loaded)>div.preloader {
+            opacity: 1;
+        }
+
+        body:not(.loaded) {
+            overflow: hidden;
+        }
+
+        body.loaded>div.preloader {
+            animation: hidePreloader .5s linear .5s forwards;
+        }
+    </style>
+    <script>
+        window.addEventListener("load", function() {
+            setTimeout(function() {
+                document.querySelector('body').classList.add('loaded');
+            }, 300);
+        });
+    </script>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/brand/favicon.png" type="image/png"><!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- Quick CSS -->
+    <link rel="stylesheet" href="assets/css/quick-website.css" id="stylesheet">
+</head>
+
+<body>
+      
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <img alt="Image placeholder" src="assets/img/illustrations/logo ale.jpeg" id="navbar-logo">
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">                    
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>                    
+                    
+                </ul>
+                <!-- Button -->
+                <a class="navbar-btn btn btn-sm btn-primary d-none d-lg-inline-block ml-3" href="contact.html">
+                    Contacto
+                </a>
+                <!-- Mobile button -->
+                <div class="d-lg-none text-center">
+                    <a href="" class="btn btn-block btn-sm btn-warning">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="slice slice-lg bg-section-dark pt-5 pt-lg-8">
+        
+        <!-- Container -->
+        <div class="container position-relative zindex-100">
+            <div class="container text-center">
+                <div class="row justify-content-center mb-6">
+                    <div class="col-lg-8">
+                        <!-- Title -->
+                        <h2 class="h1 strong-600">
+                           SERVICIOS
+                        </h2>
+                        
+                    </div>
+                </div>
+        
+    
+                <!-- Pricing -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md">
+                        <div class="card card-pricing text-center px-3 hover-scale-110">
+                            <div class="card-header py-5 border-0 delimiter-bottom">
+                                <div class="h1 text-center mb-0"><span class="price font-weight-bolder">ONLINE </span></div>                            
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled text-sm mb-4">
+                                    <li class="py-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum magnam incidunt possimus dicta ab earum, ipsum nesciunt autem dolor architecto illum dolorem deserunt explicabo minima fugit laboriosam repellendus non? Esse.</li>
+                                    
+                                </ul>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md">
+                        <div class="card card-pricing bg-dark text-center px-3 border-0 hover-scale-110">
+                            <div class="card-header py-5 border-0 delimiter-bottom">
+                                <div class="h1 text-white text-center mb-0">1 v 1</div>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled text-white text-sm opacity-8 mb-4">
+                                    <li class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur doloremque, expedita voluptas ipsam labore consequuntur quod autem, alias laboriosam quibusdam cum libero omnis necessitatibus numquam facilis molestiae veritatis hic tenetur.</li>                                                                  
+                                </ul>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md">
+                        <div class="card card-pricing text-center px-3 hover-scale-110">
+                            <div class="card-header py-5 border-0 delimiter-bottom">
+                                <div class="h1 text-center mb-0"><span class="price font-weight-bolder">ASESORIAS</span></div>                            
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled text-sm mb-4">
+                                    <li class="py-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea nesciunt rem enim animi numquam voluptatem eaque reiciendis hic eum! Neque accusantium dolores, eaque exercitationem eveniet optio non itaque facere reprehenderit!</li>                                  
+                                </ul>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+        </div>
+    </section>    
+
+
+    
+        
+        
+
+  
+    
+            <footer class="position-relative" id="footer-main">
+                <div class="footer pt-lg-7 footer-dark bg-dark">         
+                    <!-- Footer -->
+                    <div class="container pt-4">
+                        <div class="row">
+                            <div class="col-lg-4 mb-5 mb-lg-0">                        
+                                <!-- Social -->
+                                <ul class="nav mt-4">
+                                    <li class="nav-item">
+                                        <a class="nav-link pl-0" href="https://www.alexisgasparini.com" target="_blank">
+                                            <i class="fab fa-rss"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.linkedin.com" target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.instagram.com/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.facebook.com/" target="_blank">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0">                        
+                                <h6 class="heading mb-3">Home</h6>                                                
+                            </div>
+                            <div class="col-lg-2 col-6 col-sm-4 mb-5 mb-lg-0">
+                                <h6 class="heading mb-3">Contacto</h6>                        
+                            </div>
+                            
+                        </div>
+                        <hr class="divider divider-fade divider-dark my-4">
+                        <div class="row align-items-center justify-content-md-between pb-4">
+                            <div class="col-md-6">
+                                <div class="copyright text-sm font-weight-bold text-center text-md-left">
+                                    &copy; 2020 <a href="https://www.learningnodes.com" class="font-weight-bold" target="_blank">Alexis Gasparini</a>. All rights reserved
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </footer>
+    <!-- Core JS  -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="assets/libs/feather-icons/dist/feather.min.js"></script>
+    <!-- Quick JS -->
+    <script src="assets/js/quick-website.js"></script>
+    <!-- Feather Icons -->
+    <script>
+        feather.replace({
+            'width': '1em',
+            'height': '1em'
+        })
+    </script>
+</body>
+
+</html>
